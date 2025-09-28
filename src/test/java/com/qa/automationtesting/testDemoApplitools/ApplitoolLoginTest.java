@@ -19,7 +19,7 @@ public class ApplitoolLoginTest extends baseTest {
         // Login demoApplitools url with valid credentials
         ApplitoolLoginPage loginPage = new ApplitoolLoginPage(DriverManager.getDriver());
         loginPage.loginToApplitoolsValidCreds(PropertiesReader.readKey("userNm_applitools"),
-                PropertiesReader.readKey("pwd__applitools"));
+                PropertiesReader.readKey("pwd_applitools"));
 
         // Verify that after login, page redirected to the next page or not
         String currentUrl = DriverManager.getDriver().getCurrentUrl();
