@@ -12,6 +12,10 @@ public class baseTestPage {
         getDriver().get(PropertiesReader.readKey("url"));
     }
 
+    public void openApplitoolUrl(){
+        getDriver().get(PropertiesReader.readKey("url_applitools"));
+    }
+
     public void clickElement(By by){
        getDriver().findElement(by).click();
     }
