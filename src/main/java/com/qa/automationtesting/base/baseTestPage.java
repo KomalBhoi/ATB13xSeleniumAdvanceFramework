@@ -23,6 +23,10 @@ public class baseTestPage {
         getDriver().get(PropertiesReader.readKey("url_demoqa"));
     }
 
+    public void openModalDialogUrl(){
+        getDriver().get(PropertiesReader.readKey("url_modaldialogs"));
+    }
+
     public void clickElement(By by){
        getDriver().findElement(by).click();
     }

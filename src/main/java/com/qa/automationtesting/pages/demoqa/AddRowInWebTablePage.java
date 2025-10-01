@@ -11,7 +11,6 @@ import java.util.List;
 public class AddRowInWebTablePage extends baseTestPage {
 
     WebDriver driver;
-
     public AddRowInWebTablePage(WebDriver driver) {
         this.driver = driver;
     }
